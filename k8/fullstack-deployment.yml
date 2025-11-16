@@ -71,7 +71,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nadamunivasavi21/k8-backendstu:latest  # <-- change this
+          image: nadamunivasavi21/k8-backendcake12:latest  # <-- change this
           ports:
             - containerPort: 2000
 ---
@@ -110,7 +110,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nadamunivasavi21/k8-frontendstu:latest  # <-- change this
+          image: nadamunivasavi21/k8-frontendcake12:latest  # <-- change this
           ports:
             - containerPort: 80
 ---
